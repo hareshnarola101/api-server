@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "3dbb25dc-6d25-44b0-9487-bf96d4780d9d",
+		"name": "Hyperhire Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7532881"
+	},
+	"item": [
+		{
+			"name": "isValidWalletAddress",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/ethers/isValidWalletAddress/0xe04197F46cb7FcCA25AFb85FcB8441bBE174bF9C"
+			},
+			"response": []
+		},
+		{
+			"name": "createWallet",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:3000/api/ethers/createWallet"
+			},
+			"response": []
+		},
+		{
+			"name": "getLatest1000Transactions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/ethers/getLatest1000Transactions"
+			},
+			"response": []
+		},
+		{
+			"name": "getTradableCoinsOnBinance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/ccxt/getTradableCoinsOnBinance"
+			},
+			"response": []
+		},
+		{
+			"name": "getAveragePricesOfCoins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/ccxt/getAveragePricesOfCoins"
+			},
+			"response": []
+		}
+	]
+}

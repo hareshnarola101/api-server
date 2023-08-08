@@ -1,0 +1,24 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "generate-docs": "node swagger.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cctx": "^1.0.1",
+    "ccxt": "^4.0.52",
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "ethers": "^5.4.0",
+    "express": "^4.18.2",
+    "express-jsdoc-swagger": "^1.8.0",
+    "jsdoc": "^4.0.2"
+  }
+}
